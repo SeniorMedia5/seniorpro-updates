@@ -1,24 +1,25 @@
 {
   "product": "SeniorManagement",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "date": "2026-11-15",
   "channel": "stable",
   "minSupported": "3.0.0",
   "notes": [
-    "اختبار نظام التحديث التلقائي عبر الإنترنت",
-    "ربط مصدر التحديثات الرسمي"
+    "إصلاح تثبيت التحديث على النسخ المثبّتة ذات الملفات المخفية في Windows",
+    "تحمّل ملف الإعدادات المحفوظ بأدوات Windows (BOM)",
+    "تحسينات نظام التحديث"
   ],
-  "package": "senior-pro-3.2.1.zip",
-  "sha256": "70dc6cc0f96e4cfa2fae8c360a8531ea36e8d260aa31ad8c29d65e6ea8eba153",
-  "size": 2159911,
+  "package": "senior-pro-3.2.2.zip",
+  "sha256": "9a31ba11a259c14115a349115618e05ec0ce669977a9f009aebefe2bc0127059",
+  "size": 2160711,
   "files": {
-    "package.json": "dce50974189b9633b26291419f757a85d15f5ea763dfb06e30bb2aa1d6d503f5",
-    "server.js": "700c62b3f60347069f6467de9cf3eff26c44bed9e929ca82fa0c983f5dabe8a8",
+    "package.json": "74a94d6ee13dbf0d1644fa2844cb92eb4d8c6fbe0a95705c94ec4a33d2051f2f",
+    "server.js": "3d31e9711fa0ad11e0a1931076f7e40c12a949108799f52973fbda86a0d421d1",
     "seed.js": "5c3122f6b733ec63017410ac34201db8f5f1cc6e75bfe2391df5f07a4b7dd59f",
     "index.html": "785708b006395db75b04a0f92c3e2e94bd3ac357008d7a19801e503ddce0a105",
     "login.html": "9de3ef3365ab261d198def6876b3930d466fd341838a78bb8258fe8d6a46f119",
     "senior-pro-logo.html": "33af07cbc9d7df16848549321f9069f4c0299d43107d5d374ec9f4cc164002df",
-    "update-config.json": "563de0a048c9dcec5397d331ce447afa2ea033214edac6b8b32502ad9b1144d1",
+    "update-config.json": "56f06beb5fd452739a6a36e44dcfa27b02246dbb65a4b26d9be2b2d0dd98b9be",
     "README.md": "5a36abec2494d9e77b527d5193118947eeaff7beb18a8f869f84015699cb3263",
     "js/app.js": "bc2abb91ad6c46589d79d78c8d606b46e3aec0b72ffc8aaa5e85c3e85817ecb7",
     "css/style.css": "a9c94768914c1fa39cb5776b29ff3c90976babbfc6fe2b68d8493af04e6ef0ec",
@@ -54,13 +55,13 @@
     "icons/Senior-Pro.png": "b5f86c8985c4cbdbf9da77a6e363126ca753c0cd8b6fd10baf9629eb83013e74",
     "lib/migrations.js": "9ab75fe607225fdf9b692522326e6f6df45c2a281d1d0bf3530fdd2a4d069338",
     "lib/paths.js": "4b8ae7c3a915a30fcd8706933390004b1e073fb9ea38e5387d69e36d12bfcedd",
-    "lib/updater.js": "9dbd184f427d3541d745c07c1da65f80397c50dbb523e5da6e6ec9384e1c4b79",
+    "lib/updater.js": "b449be0eda432947d04d7c30ef31de316b9eb7ecafd5fd87d8c5cd6108a7ce95",
     "lib/zip.js": "622ecfb2dd4954cfb71779341a0146f88cefd1efd8b3d104944760f58b88bafb",
     "scripts/build-exe.js": "cf9012e82d2c1f6d3080e08f6b25056064660c6b4ed284f8afd89176740915a9",
     "scripts/make-ico.js": "7ffd642b1a1defeefa90309950fb71ac00fca40c926c49c73e4a438b188a7820",
-    "scripts/publish.js": "b8d0378df6b16b6d8c00636dc88459cfa19ebd19db34a22be1d7046db4a04c8a",
-    "scripts/release.js": "4d63a293bf4c5b6970150579706ed8a56897030225dccb9818694ce721d637f6",
-    "scripts/test-updater.js": "89187e526717bece7fcc025e8106b0341c77caa9a41bcfa58f0b530d7419c06c"
+    "scripts/publish.js": "9fba27070e6551c6d1cfcd2f02fff3ded8ae17e422608a0aac30c5d28e378ccb",
+    "scripts/release.js": "94e4bd19359e49e8ae0c8178a6a11851a8503a27a3ba42dda2fd70c54013b14d",
+    "scripts/test-updater.js": "6e0013a1e661803b2e9faa835a1ced3bcf30db87598cd1f6bd51836c9638b13e"
   },
-  "signature": "a3wm8LoZXRNVtFsszfL7VsfSN3vScanRXUxtupm2WOvJm+Ejp0zFOzxLNUAKw5duxB7ZUJeH5HY6gcZ4Gc2oCA=="
+  "signature": "HwLp0kp1gO3b5tlNsTGbdGXZ1F1S3cynBQH8gHow/XQMJhJxkVUw/d6le1tgNgbQSlDyuPDFNA53Zsh5c02JCg=="
 }
