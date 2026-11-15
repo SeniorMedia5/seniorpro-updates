@@ -5,12 +5,11 @@
   "channel": "stable",
   "minSupported": "3.0.0",
   "notes": [
-    "إصلاح تثبيت التحديث على النسخ المثبّتة ذات الملفات المخفية في Windows",
-    "تحمّل ملف الإعدادات المحفوظ بأدوات Windows (BOM)",
-    "تحسينات نظام التحديث"
+    "إصلاح فتح نافذة البرنامج عند الضغط على الاختصار والخادم يعمل بالخلفية",
+    "النافذة تُفتح دائماً"
   ],
   "package": "senior-pro-3.2.2.zip",
-  "sha256": "9a31ba11a259c14115a349115618e05ec0ce669977a9f009aebefe2bc0127059",
+  "sha256": "f2684db96073b4f0521b7a7cced9f192099897aa31368a12a0abd20f12ec765e",
   "size": 2160711,
   "files": {
     "package.json": "74a94d6ee13dbf0d1644fa2844cb92eb4d8c6fbe0a95705c94ec4a33d2051f2f",
@@ -63,5 +62,5 @@
     "scripts/release.js": "94e4bd19359e49e8ae0c8178a6a11851a8503a27a3ba42dda2fd70c54013b14d",
     "scripts/test-updater.js": "6e0013a1e661803b2e9faa835a1ced3bcf30db87598cd1f6bd51836c9638b13e"
   },
-  "signature": "HwLp0kp1gO3b5tlNsTGbdGXZ1F1S3cynBQH8gHow/XQMJhJxkVUw/d6le1tgNgbQSlDyuPDFNA53Zsh5c02JCg=="
+  "signature": "lPX6pPyq4bvCOQBDISaZou4fTude08bCtMGjIxWctsTJtH7j8dFfItHXoVS6gkQFyBq4dWiqOMPx0jkmzyy+BQ=="
 }
