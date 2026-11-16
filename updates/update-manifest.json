@@ -5,23 +5,23 @@
   "channel": "stable",
   "minSupported": "3.0.0",
   "notes": [
-    "إخفاء نافذة الخادم السوداء نهائياً",
-    "رقم الإصدار ديناميكي في كل الواجهة",
-    "تثبيت مصدر التحديثات داخل الكود وإخفاؤه من الواجهة"
+    "قفل حصري يمنع تشغيل خادمين على نفس البيانات (سبب الأعطال الصامتة)",
+    "مسجّل أعطال يكتب سبب أي توقف في logs/crash.log",
+    "مشغّل أكثر مقاومة للتوقفات المؤقتة"
   ],
   "package": "senior-pro-3.2.2.zip",
-  "sha256": "5c24bc18518cfb27310268577a51440dfa1bdf618837aa2243e965fbe54ef483",
-  "size": 2163584,
+  "sha256": "133863aaed66fd3dc90b15cc0b39c261d5d8e0dce53a63f24ff3cc79670a9e5c",
+  "size": 2165001,
   "files": {
     "package.json": "74a94d6ee13dbf0d1644fa2844cb92eb4d8c6fbe0a95705c94ec4a33d2051f2f",
-    "server.js": "3d31e9711fa0ad11e0a1931076f7e40c12a949108799f52973fbda86a0d421d1",
+    "server.js": "5b856bc5c9c2b45455400ab70fcd0c9f44309b94df12ac08b676afcb7e002787",
     "seed.js": "5c3122f6b733ec63017410ac34201db8f5f1cc6e75bfe2391df5f07a4b7dd59f",
     "index.html": "579a284ac908563b8b61006b180ef09586b1f4728c7b91c3bfb549a8ce363d1c",
     "login.html": "69886cab648c6462614f6d71a993544fa2a3810c35edcaa132b4a875e32234d9",
     "senior-pro-logo.html": "33af07cbc9d7df16848549321f9069f4c0299d43107d5d374ec9f4cc164002df",
     "update-config.json": "56f06beb5fd452739a6a36e44dcfa27b02246dbb65a4b26d9be2b2d0dd98b9be",
     "README.md": "5a36abec2494d9e77b527d5193118947eeaff7beb18a8f869f84015699cb3263",
-    "desktop-launcher.js": "e400e11669a9621f96dbe466aebd7c34132f65b202cf3e2541b768833b753341",
+    "desktop-launcher.js": "a09f12cdd98bfc0ec8e1041d0b85fa2055a57ae76d58fa9e083018e3b7cde4e0",
     "run-silent.vbs": "cb78342ae497867a31bf844205de06e9a7b4549a62e121d9210a3ef950e8d8bc",
     "js/app.js": "529198393c4239527bae015959106ed5bf39639afb081580cff6bdd12dc1d5b1",
     "css/style.css": "a9c94768914c1fa39cb5776b29ff3c90976babbfc6fe2b68d8493af04e6ef0ec",
@@ -65,5 +65,5 @@
     "scripts/release.js": "c4963ee2bf904e10b46c86923c3ad9cea90c457a4df115bf184854c2aa7a4569",
     "scripts/test-updater.js": "6e0013a1e661803b2e9faa835a1ced3bcf30db87598cd1f6bd51836c9638b13e"
   },
-  "signature": "ne6VNSSwTEFsNcdeB5EP78MTVsyq1HmlqsedbPsXD6UJSETur4DDanTAOyD48XPaX46blqyeX1IKeVW6YjLwBg=="
+  "signature": "yf2Pgid/oCniDrB2jSEfaFu1Fe/0TxQ3vBnDNHmLgSXBx707XYcQGFn46p4jr270Q74LV25rf5RQmnlyfAD7BQ=="
 }
