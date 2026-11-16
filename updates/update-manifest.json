@@ -1,26 +1,29 @@
 {
   "product": "SeniorManagement",
   "version": "3.2.2",
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "channel": "stable",
   "minSupported": "3.0.0",
   "notes": [
-    "إصلاح فتح نافذة البرنامج عند الضغط على الاختصار والخادم يعمل بالخلفية",
-    "النافذة تُفتح دائماً"
+    "إخفاء نافذة الخادم السوداء نهائياً",
+    "رقم الإصدار ديناميكي في كل الواجهة",
+    "تثبيت مصدر التحديثات داخل الكود وإخفاؤه من الواجهة"
   ],
   "package": "senior-pro-3.2.2.zip",
-  "sha256": "f2684db96073b4f0521b7a7cced9f192099897aa31368a12a0abd20f12ec765e",
-  "size": 2160711,
+  "sha256": "5c24bc18518cfb27310268577a51440dfa1bdf618837aa2243e965fbe54ef483",
+  "size": 2163584,
   "files": {
     "package.json": "74a94d6ee13dbf0d1644fa2844cb92eb4d8c6fbe0a95705c94ec4a33d2051f2f",
     "server.js": "3d31e9711fa0ad11e0a1931076f7e40c12a949108799f52973fbda86a0d421d1",
     "seed.js": "5c3122f6b733ec63017410ac34201db8f5f1cc6e75bfe2391df5f07a4b7dd59f",
-    "index.html": "785708b006395db75b04a0f92c3e2e94bd3ac357008d7a19801e503ddce0a105",
-    "login.html": "9de3ef3365ab261d198def6876b3930d466fd341838a78bb8258fe8d6a46f119",
+    "index.html": "579a284ac908563b8b61006b180ef09586b1f4728c7b91c3bfb549a8ce363d1c",
+    "login.html": "69886cab648c6462614f6d71a993544fa2a3810c35edcaa132b4a875e32234d9",
     "senior-pro-logo.html": "33af07cbc9d7df16848549321f9069f4c0299d43107d5d374ec9f4cc164002df",
     "update-config.json": "56f06beb5fd452739a6a36e44dcfa27b02246dbb65a4b26d9be2b2d0dd98b9be",
     "README.md": "5a36abec2494d9e77b527d5193118947eeaff7beb18a8f869f84015699cb3263",
-    "js/app.js": "bc2abb91ad6c46589d79d78c8d606b46e3aec0b72ffc8aaa5e85c3e85817ecb7",
+    "desktop-launcher.js": "e400e11669a9621f96dbe466aebd7c34132f65b202cf3e2541b768833b753341",
+    "run-silent.vbs": "cb78342ae497867a31bf844205de06e9a7b4549a62e121d9210a3ef950e8d8bc",
+    "js/app.js": "529198393c4239527bae015959106ed5bf39639afb081580cff6bdd12dc1d5b1",
     "css/style.css": "a9c94768914c1fa39cb5776b29ff3c90976babbfc6fe2b68d8493af04e6ef0ec",
     "vendor/chartjs/chart.umd.min.js": "d46d97a1fd022c5fb29fa2f45ebcbc32202d73aeebf076ce5f7248f5498fc7d7",
     "vendor/fontawesome/all.min.css": "188eaf469afe3a8a6cddbf0a5f20add1dc32736bb1fb413eaeea0b4dd347becd",
@@ -54,13 +57,13 @@
     "icons/Senior-Pro.png": "b5f86c8985c4cbdbf9da77a6e363126ca753c0cd8b6fd10baf9629eb83013e74",
     "lib/migrations.js": "9ab75fe607225fdf9b692522326e6f6df45c2a281d1d0bf3530fdd2a4d069338",
     "lib/paths.js": "4b8ae7c3a915a30fcd8706933390004b1e073fb9ea38e5387d69e36d12bfcedd",
-    "lib/updater.js": "b449be0eda432947d04d7c30ef31de316b9eb7ecafd5fd87d8c5cd6108a7ce95",
+    "lib/updater.js": "8bfc69a75eb2d137f9b7d64c286eaf2ce78e3e7f9612c2c07255c483a4704bcc",
     "lib/zip.js": "622ecfb2dd4954cfb71779341a0146f88cefd1efd8b3d104944760f58b88bafb",
-    "scripts/build-exe.js": "cf9012e82d2c1f6d3080e08f6b25056064660c6b4ed284f8afd89176740915a9",
+    "scripts/build-exe.js": "5587aabee207d6875f44a946b8dace5f8309251cbea6ee5e927e71704d2be70f",
     "scripts/make-ico.js": "7ffd642b1a1defeefa90309950fb71ac00fca40c926c49c73e4a438b188a7820",
     "scripts/publish.js": "9fba27070e6551c6d1cfcd2f02fff3ded8ae17e422608a0aac30c5d28e378ccb",
-    "scripts/release.js": "94e4bd19359e49e8ae0c8178a6a11851a8503a27a3ba42dda2fd70c54013b14d",
+    "scripts/release.js": "c4963ee2bf904e10b46c86923c3ad9cea90c457a4df115bf184854c2aa7a4569",
     "scripts/test-updater.js": "6e0013a1e661803b2e9faa835a1ced3bcf30db87598cd1f6bd51836c9638b13e"
   },
-  "signature": "lPX6pPyq4bvCOQBDISaZou4fTude08bCtMGjIxWctsTJtH7j8dFfItHXoVS6gkQFyBq4dWiqOMPx0jkmzyy+BQ=="
+  "signature": "ne6VNSSwTEFsNcdeB5EP78MTVsyq1HmlqsedbPsXD6UJSETur4DDanTAOyD48XPaX46blqyeX1IKeVW6YjLwBg=="
 }
