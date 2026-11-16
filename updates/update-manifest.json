@@ -5,26 +5,26 @@
   "channel": "stable",
   "minSupported": "3.0.0",
   "notes": [
-    "قفل حصري يمنع تشغيل خادمين على نفس البيانات (سبب الأعطال الصامتة)",
-    "مسجّل أعطال يكتب سبب أي توقف في logs/crash.log",
-    "مشغّل أكثر مقاومة للتوقفات المؤقتة"
+    "إصلاح لون Senior Pro في شاشة الدخول (أبيض بدل لون الروابط)",
+    "طي/فتح الشريط الجانبي بزر القائمة على سطح المكتب",
+    "منع تخزين ملفات الواجهة قديمة في المتصفح"
   ],
   "package": "senior-pro-3.2.2.zip",
-  "sha256": "133863aaed66fd3dc90b15cc0b39c261d5d8e0dce53a63f24ff3cc79670a9e5c",
-  "size": 2165001,
+  "sha256": "377a5f3ef3987cf4a7991af0930386cf6965dbf71036724d045cc919ab1e1b7f",
+  "size": 2165497,
   "files": {
     "package.json": "74a94d6ee13dbf0d1644fa2844cb92eb4d8c6fbe0a95705c94ec4a33d2051f2f",
-    "server.js": "5b856bc5c9c2b45455400ab70fcd0c9f44309b94df12ac08b676afcb7e002787",
+    "server.js": "a544bf9623593e036da8a55112badc0488637a4ebeae41d02ea220133f0beb74",
     "seed.js": "5c3122f6b733ec63017410ac34201db8f5f1cc6e75bfe2391df5f07a4b7dd59f",
     "index.html": "579a284ac908563b8b61006b180ef09586b1f4728c7b91c3bfb549a8ce363d1c",
-    "login.html": "69886cab648c6462614f6d71a993544fa2a3810c35edcaa132b4a875e32234d9",
+    "login.html": "8331d7b1b2cd087780e8c9fd00f3592a5850c1c0c540160244c0e57377f57039",
     "senior-pro-logo.html": "33af07cbc9d7df16848549321f9069f4c0299d43107d5d374ec9f4cc164002df",
     "update-config.json": "56f06beb5fd452739a6a36e44dcfa27b02246dbb65a4b26d9be2b2d0dd98b9be",
     "README.md": "5a36abec2494d9e77b527d5193118947eeaff7beb18a8f869f84015699cb3263",
     "desktop-launcher.js": "a09f12cdd98bfc0ec8e1041d0b85fa2055a57ae76d58fa9e083018e3b7cde4e0",
     "run-silent.vbs": "cb78342ae497867a31bf844205de06e9a7b4549a62e121d9210a3ef950e8d8bc",
-    "js/app.js": "529198393c4239527bae015959106ed5bf39639afb081580cff6bdd12dc1d5b1",
-    "css/style.css": "a9c94768914c1fa39cb5776b29ff3c90976babbfc6fe2b68d8493af04e6ef0ec",
+    "js/app.js": "e013a3b3d39bbc0eca5e9f72796583dc95e3f95061d7ea4956d993bba0a94b4f",
+    "css/style.css": "33ced0850323b2daf506b97f1b613d3876e93cc57d499e4f9c812c3680874a4a",
     "vendor/chartjs/chart.umd.min.js": "d46d97a1fd022c5fb29fa2f45ebcbc32202d73aeebf076ce5f7248f5498fc7d7",
     "vendor/fontawesome/all.min.css": "188eaf469afe3a8a6cddbf0a5f20add1dc32736bb1fb413eaeea0b4dd347becd",
     "vendor/fontawesome/webfonts/fa-brands-400.ttf": "e28096fa75a96ac77020155ea3a6dd7312983e84115366d4cf49a0c312ec6d51",
@@ -65,5 +65,5 @@
     "scripts/release.js": "c4963ee2bf904e10b46c86923c3ad9cea90c457a4df115bf184854c2aa7a4569",
     "scripts/test-updater.js": "6e0013a1e661803b2e9faa835a1ced3bcf30db87598cd1f6bd51836c9638b13e"
   },
-  "signature": "yf2Pgid/oCniDrB2jSEfaFu1Fe/0TxQ3vBnDNHmLgSXBx707XYcQGFn46p4jr270Q74LV25rf5RQmnlyfAD7BQ=="
+  "signature": "DS0+W4pSZIiei6rfQLupbySx3Shyqz7+EnAWYjZmnfLsOBXvZdwk6fyIOKmSCqZx48TUG4shRhW9Nt0H/okiDw=="
 }
